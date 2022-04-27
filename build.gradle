@@ -1,0 +1,25 @@
+plugins {
+    id 'idea'
+    id 'eclipse'
+    id 'java'
+    id 'ivy-publish'
+    id 'com.tableau.nerv-java-lib-module-plugin' version '15.14.0'
+    id 'org.springframework.boot' version '2.2.6.RELEASE'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation platform("org.springframework.boot:spring-boot-dependencies:2.2.10.RELEASE")
+
+    // Switching back and forth here between versions to test relative perf
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.3.3'
+//    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.25'
+    implementation group: 'commons-cli', name: 'commons-cli', version: '1.4'
+    implementation group: 'org.yaml', name: 'snakeyaml', version: '1.27'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.1'
+    implementation 'org.springframework.boot:spring-boot'
+    implementation 'org.springframework.boot:spring-boot-autoconfigure'
+}

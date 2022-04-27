@@ -1,0 +1,363 @@
+{
+    "compileClasspath": {
+        "commons-cli:commons-cli": {
+            "locked": "1.4"
+        },
+        "org.apache.logging.log4j:log4j-api": {
+            "locked": "2.13.1",
+            "transitive": [
+                "org.apache.logging.log4j:log4j-core"
+            ]
+        },
+        "org.apache.logging.log4j:log4j-core": {
+            "locked": "2.13.1"
+        },
+        "org.postgresql:postgresql": {
+            "locked": "42.3.3"
+        },
+        "org.springframework.boot:spring-boot": {
+            "locked": "2.2.10.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot-autoconfigure"
+            ]
+        },
+        "org.springframework.boot:spring-boot-autoconfigure": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework.boot:spring-boot-dependencies": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework:spring-aop": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-beans": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-aop",
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-context": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot"
+            ]
+        },
+        "org.springframework:spring-core": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot",
+                "org.springframework:spring-aop",
+                "org.springframework:spring-beans",
+                "org.springframework:spring-context",
+                "org.springframework:spring-expression"
+            ]
+        },
+        "org.springframework:spring-expression": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-jcl": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-core"
+            ]
+        },
+        "org.yaml:snakeyaml": {
+            "locked": "1.27"
+        }
+    },
+    "jacocoAgent": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.8.7"
+        }
+    },
+    "jacocoAnt": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.8.7",
+            "transitive": [
+                "org.jacoco:org.jacoco.ant"
+            ]
+        },
+        "org.jacoco:org.jacoco.ant": {
+            "locked": "0.8.7"
+        },
+        "org.jacoco:org.jacoco.core": {
+            "locked": "0.8.7",
+            "transitive": [
+                "org.jacoco:org.jacoco.ant",
+                "org.jacoco:org.jacoco.report"
+            ]
+        },
+        "org.jacoco:org.jacoco.report": {
+            "locked": "0.8.7",
+            "transitive": [
+                "org.jacoco:org.jacoco.ant"
+            ]
+        },
+        "org.ow2.asm:asm": {
+            "locked": "9.1",
+            "transitive": [
+                "org.jacoco:org.jacoco.core",
+                "org.ow2.asm:asm-commons",
+                "org.ow2.asm:asm-tree"
+            ]
+        },
+        "org.ow2.asm:asm-analysis": {
+            "locked": "9.1",
+            "transitive": [
+                "org.ow2.asm:asm-commons"
+            ]
+        },
+        "org.ow2.asm:asm-commons": {
+            "locked": "9.1",
+            "transitive": [
+                "org.jacoco:org.jacoco.core"
+            ]
+        },
+        "org.ow2.asm:asm-tree": {
+            "locked": "9.1",
+            "transitive": [
+                "org.jacoco:org.jacoco.core",
+                "org.ow2.asm:asm-analysis",
+                "org.ow2.asm:asm-commons"
+            ]
+        }
+    },
+    "runtimeClasspath": {
+        "commons-cli:commons-cli": {
+            "locked": "1.4"
+        },
+        "org.apache.logging.log4j:log4j-api": {
+            "locked": "2.13.1",
+            "transitive": [
+                "org.apache.logging.log4j:log4j-core"
+            ]
+        },
+        "org.apache.logging.log4j:log4j-core": {
+            "locked": "2.13.1"
+        },
+        "org.checkerframework:checker-qual": {
+            "locked": "3.5.0",
+            "transitive": [
+                "org.postgresql:postgresql"
+            ]
+        },
+        "org.postgresql:postgresql": {
+            "locked": "42.3.3"
+        },
+        "org.springframework.boot:spring-boot": {
+            "locked": "2.2.10.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot-autoconfigure"
+            ]
+        },
+        "org.springframework.boot:spring-boot-autoconfigure": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework.boot:spring-boot-dependencies": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework:spring-aop": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-beans": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-aop",
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-context": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot"
+            ]
+        },
+        "org.springframework:spring-core": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot",
+                "org.springframework:spring-aop",
+                "org.springframework:spring-beans",
+                "org.springframework:spring-context",
+                "org.springframework:spring-expression"
+            ]
+        },
+        "org.springframework:spring-expression": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-jcl": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-core"
+            ]
+        },
+        "org.yaml:snakeyaml": {
+            "locked": "1.27"
+        }
+    },
+    "testCompileClasspath": {
+        "commons-cli:commons-cli": {
+            "locked": "1.4"
+        },
+        "org.apache.logging.log4j:log4j-api": {
+            "locked": "2.13.1",
+            "transitive": [
+                "org.apache.logging.log4j:log4j-core"
+            ]
+        },
+        "org.apache.logging.log4j:log4j-core": {
+            "locked": "2.13.1"
+        },
+        "org.postgresql:postgresql": {
+            "locked": "42.3.3"
+        },
+        "org.springframework.boot:spring-boot": {
+            "locked": "2.2.10.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot-autoconfigure"
+            ]
+        },
+        "org.springframework.boot:spring-boot-autoconfigure": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework.boot:spring-boot-dependencies": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework:spring-aop": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-beans": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-aop",
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-context": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot"
+            ]
+        },
+        "org.springframework:spring-core": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot",
+                "org.springframework:spring-aop",
+                "org.springframework:spring-beans",
+                "org.springframework:spring-context",
+                "org.springframework:spring-expression"
+            ]
+        },
+        "org.springframework:spring-expression": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-jcl": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-core"
+            ]
+        },
+        "org.yaml:snakeyaml": {
+            "locked": "1.27"
+        }
+    },
+    "testRuntimeClasspath": {
+        "commons-cli:commons-cli": {
+            "locked": "1.4"
+        },
+        "org.apache.logging.log4j:log4j-api": {
+            "locked": "2.13.1",
+            "transitive": [
+                "org.apache.logging.log4j:log4j-core"
+            ]
+        },
+        "org.apache.logging.log4j:log4j-core": {
+            "locked": "2.13.1"
+        },
+        "org.checkerframework:checker-qual": {
+            "locked": "3.5.0",
+            "transitive": [
+                "org.postgresql:postgresql"
+            ]
+        },
+        "org.postgresql:postgresql": {
+            "locked": "42.3.3"
+        },
+        "org.springframework.boot:spring-boot": {
+            "locked": "2.2.10.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot-autoconfigure"
+            ]
+        },
+        "org.springframework.boot:spring-boot-autoconfigure": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework.boot:spring-boot-dependencies": {
+            "locked": "2.2.10.RELEASE"
+        },
+        "org.springframework:spring-aop": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-beans": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-aop",
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-context": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot"
+            ]
+        },
+        "org.springframework:spring-core": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework.boot:spring-boot",
+                "org.springframework:spring-aop",
+                "org.springframework:spring-beans",
+                "org.springframework:spring-context",
+                "org.springframework:spring-expression"
+            ]
+        },
+        "org.springframework:spring-expression": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-context"
+            ]
+        },
+        "org.springframework:spring-jcl": {
+            "locked": "5.2.9.RELEASE",
+            "transitive": [
+                "org.springframework:spring-core"
+            ]
+        },
+        "org.yaml:snakeyaml": {
+            "locked": "1.27"
+        }
+    }
+}
